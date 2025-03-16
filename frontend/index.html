@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Questionnaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Farmer Questionnaire</h1>
+    <form id="questionnaire">
+      <label for="produce">Produce Grown:</label>
+      <input type="text" id="produce" name="produce" required>
+
+      <label for="amount_sold">Amount Sold (kg):</label>
+      <input type="number" id="amount_sold" name="amount_sold" required>
+
+      <label for="rate_sold">Rate Sold (per kg):</label>
+      <input type="number" id="rate_sold" name="rate_sold" required>
+
+      <label for="male_workers">Number of Male Workers:</label>
+      <input type="number" id="male_workers" name="male_workers" required>
+
+      <label for="female_workers">Number of Female Workers:</label>
+      <input type="number" id="female_workers" name="female_workers" required>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
